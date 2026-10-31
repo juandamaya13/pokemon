@@ -37,6 +37,13 @@ button{
     
 }
 
+.nombre3{
+    color: blue;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
 .pokemonfantasma{
     width:160px;
     position: absolute;
