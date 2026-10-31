@@ -26,13 +26,22 @@ align-items: center;
     display: flex;
     padding:16px;
     gap: 18px;
+
+ 
+}
+
+button{
+    padding: 4px 12px;
+    min-width: 129px;
+    text-align: center;
+    
 }
 
 .pokemonfantasma{
     width:160px;
     position: absolute;
     bottom:-10px;
-    left: 20px;
+    left:-3vw;
 
     img{
         width: 95%;
@@ -225,7 +234,7 @@ h3{
     border-radius: 18px;
     background-color: rgba(182, 255, 231, 0.548);
     padding: 20px;
-    font-size: 25px;
+    font-size: 16px;
     
 }
 
