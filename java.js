@@ -15,7 +15,7 @@ let espectro={
 
 let flame={
     nombre:"Flame",
-    salud:75
+    salud:100
 }
 vida1.textContent=espectro.salud
 vida2.textContent=flame.salud
@@ -24,7 +24,7 @@ function contraataque(n){
     if(n=="uno"){
         pokemonfuego.classList.add("fuegoveloz")
         pokemonfantasma.classList.add("daño")
-        espectro.salud=espectro.salud-13
+        espectro.salud=espectro.salud-20
         dialogos.textContent="Flame a utilizado el ataque Fuego veloz"
 
         setTimeout(function(){
@@ -35,7 +35,7 @@ function contraataque(n){
 else if(n=="dos"){
     pokemonfuego.classList.add("metiorito")
     pokemonfantasma.classList.add("daño")
-    espectro.salud=espectro.salud-18
+    espectro.salud=espectro.salud-15
     dialogos.textContent="Flame a utilizado el ataque Metiorito"
 
     setTimeout(function(){
@@ -47,7 +47,7 @@ else if(n=="dos"){
 else if(n=="tres"){
     pokemonfuego.classList.add("fuegoresplandeciente")
     pokemonfantasma.classList.add("daño")
-    espectro.salud=espectro.salud-20
+    espectro.salud=espectro.salud-18
     dialogos.textContent="Flame a utilizado el ataque fuego resplandeciente"
 
     setTimeout(function(){
@@ -58,7 +58,7 @@ else if(n=="tres"){
 else if(n=="cuatro"){
     pokemonfuego.classList.add("incendiario")
     pokemonfantasma.classList.remove("daño")
-    espectro.salud=espectro.salud-18
+    espectro.salud=espectro.salud-22
     dialogos.textContent="Flame a utilizado el ataque Incendiario"
 
     setTimeout(function(){
@@ -96,7 +96,7 @@ pokemonfuego.classList.remove("daño")
 else if(n=="dos"){
 pokemonfantasma.classList.add("ataque2")
 pokemonfuego.classList.add("daño")
-flame.salud=flame.salud-17
+flame.salud=flame.salud-20
 dialogos.textContent="Espectro a utilizado el giro de la muerte"
 
 
@@ -122,7 +122,7 @@ else{
 
      pokemonfantasma.classList.add("ataque4")
      pokemonfuego.classList.add("daño")
-    flame.salud=flame.salud-13
+    flame.salud=flame.salud-22
     dialogos.textContent="Espectro a utilizado el escudo"
 
 
